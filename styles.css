@@ -1,0 +1,101 @@
+   *
+{
+    margin: 0;
+    padding: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px ;
+    box-sizing: border-box;
+    background-color: blanchedalmond;
+    text-align: center;
+}
+#menu ul{
+    background-color: #e68686;
+    list-style: none;
+    padding: 10px;
+}
+#menu ul li{
+    color:salmon;
+    display: inline;
+}
+#menu ul li a{
+    text-decoration: none;
+    color: red;
+    padding: 20px;
+    display: inline-block;
+    justify-content: space-between;
+    transition: .5s ;
+}
+#menu ul li a:hover{
+    color: #070707;
+}
+
+
+.logo h1{
+    display: block;
+    text-align:center;
+    background-color: #f8988e;
+    color: #080808;
+    padding: 15px;
+    height: 3rem;
+    font-size:30px;
+}
+
+.items{
+    align-items:flex;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 30px 20px;
+      
+}
+.item img{
+    padding: 20px 10px;
+    width: 80%;
+    height: 200px;
+    border-radius: 40px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2 ease;
+}
+
+.item img:hover{
+    transform:scale(1.04);
+
+}
+.item h4{
+    color: #0a0b0b;
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+}
+.item button{
+    padding: 20px 10px;
+    align-items: center;
+    background-color: #d9f2cb;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 15px;
+    display: block;
+    margin: 20px auto;
+    transition: 0.2s all;    
+}
+.item button:hover{
+  transform: scale(1.08);
+}
+
+/*footer*/
+.logo h2 {
+background-color: #e68686;
+padding-top: 20px;
+height: 30px;
+width: 100%
+font-size 25px;
+text-align: center;
+}
+.logo h3{
+background-color: #e68686;
+padding-top: 25px;
+height: 30px;
+width: 100%
+font-size 20px;
+text-align: center;
+}
